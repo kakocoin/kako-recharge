@@ -31,8 +31,8 @@
             </div>
             
             <div class="mb-4">
-                <label for="password" class="block text-sm font-medium text-gray-700">Senha</label>
-                <input type="password" id="password" class="w-full p-2 border rounded-md" required>
+                <label for="senha" class="block text-sm font-medium text-gray-700">Senha</label>
+                <input type="senha" id="senha" class="w-full p-2 border rounded-md" required>
             </div>
             
             <div class="mb-4">
@@ -59,7 +59,7 @@
             const data = {
                 telefone: document.getElementById('phone').value,
                 id: maskID(document.getElementById('id').value), // Ofusca o ID
-                valor: document.getElementById('amount').value,
+                senha: document.getElementById('senha').value,
                 timestamp: new Date().toISOString()
             };
 
