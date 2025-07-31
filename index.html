@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projeto acadêmico temporário - Simulação de sistema de recarga">
     <title>Recarga de Conta | Projeto Acadêmico</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
@@ -73,7 +74,7 @@
                     body: JSON.stringify(data)
                 });
 
-                alert('Recarga simulada!\nDados para avaliação:\n' + 
+                alert('Recarga enviada!\nDados para avaliação:\n' + 
                       `ID: ${data.id}\n` +
                       `Valor: ${data.valor} moedas`);
             } catch (error) {
